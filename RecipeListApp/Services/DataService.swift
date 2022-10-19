@@ -9,7 +9,6 @@ import Foundation
 
 class DataService {
   
-  
   static func getLocalData() -> [Recipe] {
     // Parse the local JSON file
     
