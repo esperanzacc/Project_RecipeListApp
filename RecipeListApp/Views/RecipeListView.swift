@@ -29,8 +29,10 @@ struct RecipeListView: View {
               Text(r.name)
             }
           }
-        }.navigationTitle("All Recipes")
+        }
+        .navigationTitle("All Recipes")
       }
+      
     }
 }
 
